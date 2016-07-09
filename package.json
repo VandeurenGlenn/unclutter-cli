@@ -1,0 +1,36 @@
+{
+  "name": "unclutter-cli",
+  "version": "0.0.1-alpha.1",
+  "description": "The 'cli' for UnClutter, watch file changes and run tasks on them (move, delete, rename, etc...)",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "postinstall": "./tasks/postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandeurenglenn/unclutter-cli.git"
+  },
+  "keywords": [
+    "unclutter",
+    "unclutter-cli",
+    "cli",
+    "tasks-cli"
+  ],
+  "author": "Glenn Vandeuren <vandeurenglenn@gmail.com>",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/vandeurenglenn/unclutter-cli/issues"
+  },
+  "homepage": "https://github.com/vandeurenglenn/unclutter-cli#readme",
+  "dependencies": {
+    "chokidar": "^1.6.0",
+    "commander": "^2.9.0",
+    "del": "^2.2.1",
+    "progress": "^1.1.8"
+  },
+  "devDependencies": {
+    "eslint": "^3.0.1",
+    "eslint-config-google": "^0.6.0"
+  }
+}
