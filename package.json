@@ -3,6 +3,7 @@
   "version": "0.0.1-alpha.1",
   "description": "The 'cli' for UnClutter, watch file changes and run tasks on them (move, delete, rename, etc...)",
   "main": "index.js",
+  "bin": "bin/unclutter.js",
   "scripts": {
     "test": "test",
     "postinstall": "./tasks/postinstall.js"

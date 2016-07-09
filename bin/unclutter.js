@@ -1,10 +1,10 @@
-global.CONFIG = require('./config')();
+global.CONFIG = require('./../src/config')();
 const program = require('commander');
-const tasksController = require('./tasks.js');
-const monitor = require('./monitor.js');
-const watcher = require('./watcher.js');
-const rules = require('./rules.js');
-const indexer = require('./indexer');
+const tasksController = require('./../src/tasks.js');
+const monitor = require('./../src/monitor.js');
+const watcher = require('./../src/watcher.js');
+const rules = require('./../src/rules.js');
+const indexer = require('./../src/indexer');
 
 // Setup tasks so it can be used global
 let tasks;

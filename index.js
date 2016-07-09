@@ -1,3 +1,3 @@
-const cli = require('./src/cli');
+const cli = require('./bin/unclutter');
 
 module.exports = cli;
