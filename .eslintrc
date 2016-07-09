@@ -1,0 +1,15 @@
+{
+    "extends": "google",
+    "env": {
+      "node": true,
+      "mocha": true,
+      "es6": true
+    },
+    "globals": {
+      "window": true,
+      "document": true,
+      "HTMLElement": true,
+      "Polymer": true,
+      "CustomEvent": true
+    }
+}
