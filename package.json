@@ -6,7 +6,7 @@
   "bin": "bin/unclutter.js",
   "scripts": {
     "test": "test",
-    "postinstall": "./tasks/postinstall.js"
+    "postinstall": "npm run tasks/postinstall.js"
   },
   "repository": {
     "type": "git",
