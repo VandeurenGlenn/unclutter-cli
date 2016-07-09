@@ -1,6 +1,6 @@
 {
   "name": "unclutter-cli",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.1-alpha.3",
   "description": "The 'cli' for UnClutter, watch file changes and run tasks on them (move, delete, rename, etc...)",
   "main": "index.js",
   "bin": "bin/unclutter.js",
