@@ -1,16 +1,21 @@
+#!/usr/bin/env node
+
+'use-strict';
+// set title
+process.title = 'unclutter';
+// init global configuration
 global.CONFIG = require('./../src/config')();
+
 const program = require('commander');
 const tasksController = require('./../src/tasks.js');
 const monitor = require('./../src/monitor.js');
 const watcher = require('./../src/watcher.js');
 const rules = require('./../src/rules.js');
 const indexer = require('./../src/indexer');
-
 // Setup tasks so it can be used global
 let tasks;
 let jobs = [];
 var jobCalls = 0;
-
 program
 .arguments('<arg>')
 .option('-t, --tasks <tasks>',
